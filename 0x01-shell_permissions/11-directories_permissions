@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod --recursive a+x {} \+
+chmod -R ugo+X .
